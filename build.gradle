@@ -19,6 +19,7 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    systemProperty 'selenide.headless', System.getProperty('selenide.headless')
+    systemProperty 'selenium.headless', System.getProperty('selenium.headless')
     //  `gradlew test -Dselenide.headless=true`
+
 }

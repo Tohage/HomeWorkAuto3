@@ -1,3 +1,29 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Tohage 
+netology-code
+/
+aqa-homeworks
+Public
+Code
+Pull requests
+Actions
+Wiki
+Security
+Insights
+aqa-homeworks/.gitignore
+@coursar
+coursar fix: .gitignore
+Latest commit d032024 on 17 Oct 2019
+ History
+ 1 contributor
+45 lines (39 sloc)  450 Bytes
+
 Thumbs.db*
 .DS_Store
 HELP.md
@@ -43,3 +69,17 @@ out/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
