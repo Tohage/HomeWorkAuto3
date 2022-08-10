@@ -72,7 +72,7 @@ public class CardOrderTest {
     void phoneNumberIncorrect() {
         driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иван-Иванов");
-        driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("9876543211");
+        driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("9876");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
         driver.findElement(By.cssSelector(".button__text")).click();
         String text = driver.findElement(By.cssSelector("[data-test-id='phone'].input_invalid .input__sub")).getText().trim();
